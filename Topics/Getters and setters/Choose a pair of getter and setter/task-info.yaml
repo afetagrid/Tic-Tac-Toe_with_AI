@@ -1,0 +1,31 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: getCompleted
+- text: isCompleted
+- text: setCompleted
+- text: completed
+- text: readCompleted
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3021#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 05 Jan 2023 10:44:27 UTC"
+record: -1
+selected_options:
+- 0
+- 1
+- 2
+local_check: false
